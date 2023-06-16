@@ -1,0 +1,129 @@
+body {
+    background-image: linear-gradient(to bottom right, #D1CCF4, #E6CECE);
+    background-attachment: fixed;
+    font-family: "Hind Guntur", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+label {
+    visibility: hidden;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 37px;
+    margin-bottom: 27px;
+}
+
+span.account-link {
+    display: inline-block;
+    width: 665px;
+    text-align: right;
+}
+
+main {
+margin-left: 30%;
+}
+
+main, section {
+    display: inline-block;
+}
+
+
+.login-left-panel {
+    position: relative;
+    float: left;
+    width: 645px;
+    height: 1024px;
+    background-image: linear-gradient(to top right, #D1CCF4, #E6CECE);
+    border: 1px solid gray;
+    border-radius: 40px;
+}
+
+.saly {
+    position: relative;
+    z-index: 2;
+    width: 831px;
+    height: 744px;
+    margin-top: 70px;
+}
+
+.login-right-panel {
+    position: absolute;
+    z-index: 1;
+    float: left;
+    width: 915px;
+    height: 1024px;
+    background-color: #FFFFFF;
+    border: 2px solid gray;
+    border-radius: 40px;
+    text-align: center;
+    margin-left: -4em;
+}
+
+h1 {
+    color: #FFFFFF;
+    margin-left: 2em;
+}
+
+h2.join{
+    margin-top: 105px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+/* Help classes */
+
+.btn-secondary {
+    margin-right: 3em;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.btn-sign-in {
+    background-color: transparent;
+    border-radius: 10px;
+    width: 276px;
+    height: 67px;
+    font-size: 24px;
+    font-family: "inter", sans-serif;
+    font-weight: 100;;
+}
+
+.btn-create-account {
+    width: 349px;
+    height: 86px;
+    background-image: linear-gradient(to top right, #D1CCF4, #E6CECE);
+    color: white;
+    border-radius: 5px;
+    font-family: "Hind Guntur" sans-serif;
+    font-weight: 700;
+    margin-top: 113px;
+}
+
+.input-details {
+    width: 665px;
+    height: 90px;
+    border: 2px solid #B7B7B7;
+}
+
+input[type="text"], 
+input[type="email"],
+input[type="password"] {
+    font-size: 24px;
+}
+
+.input-details::placeholder {
+    font-size: 24px;
+}
